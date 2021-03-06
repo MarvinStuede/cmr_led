@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cmr_led</name>
+  <version>0.1.0</version>
+  <description>cmr_led</description>
+
+  <maintainer email="Marvin.Stuede@imes.uni-hannover.de">Marvin Stuede</maintainer>
+  <license>BSD</license>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cmr_msgs</build_depend>
+  <build_depend>lrgbmatrix</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>cmr_os</build_depend>
+  <exec_depend>cmr_os</exec_depend>
+  <exec_depend>cmr_msgs</exec_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>rgbmatrix</exec_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

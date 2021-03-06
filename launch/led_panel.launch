@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="cmr_led" type="led_panel" name="led_panel" output="screen"/>
+
+</launch>
